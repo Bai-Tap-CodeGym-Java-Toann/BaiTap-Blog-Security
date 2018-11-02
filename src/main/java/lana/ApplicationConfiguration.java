@@ -119,7 +119,7 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter implements
     //staticResources
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/assets/**")
-                .addResourceLocations("/assets/");
+        registry.addResourceHandler("/**")
+                .addResourceLocations("/resources/");
     }
 }
