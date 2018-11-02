@@ -1,6 +1,5 @@
-package lanaDrahrepus;
+package lana;
 
-import lana.ApplicationConfiguration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
