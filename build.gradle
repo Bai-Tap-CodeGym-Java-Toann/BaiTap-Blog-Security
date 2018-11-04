@@ -26,6 +26,7 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-web', version: springframeworkVersion
     compile group: 'org.springframework', name: 'spring-orm', version: springframeworkVersion
     compile group: 'org.springframework', name: 'spring-webmvc', version: springframeworkVersion
+    compile group: 'org.springframework', name: 'spring-tx', version: springframeworkVersion
 
     //jpa - database - hibernate
     compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '1.11.12.RELEASE'
