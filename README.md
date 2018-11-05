@@ -5,4 +5,5 @@ Lana's Project Gradle - LTS
 2.Delete .git folder ->
 3.rename folder ->
 4.rename rootProject name in settings.gradle ->
-5.build project
+5.re config ->
+6.build project.
