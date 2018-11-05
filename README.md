@@ -1,9 +1,17 @@
 # LanaBaseGradle
-Lana's Project Gradle - LTS
+### Lana's Project Gradle - LTS
 
-1.clone -> 
-2.Delete .git folder ->
-3.rename folder ->
-4.rename rootProject name in settings.gradle ->
-5.re config ->
-6.build project.
+How To Use:
+1. Clone 
+2. Delete .git folder 
+3. Rename folder
+4. Rename rootProject name in settings.gradle
+5. Build project
+
+Remember To:
+* Re config files in configuration package (SpringDataJPA)
+* Create package: 
+  - controllers
+  - repository
+  - service
+  - model  
