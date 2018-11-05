@@ -1,11 +1,16 @@
-package lana;
+package lana.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[]{ApplicationConfiguration.class};
+        return new Class[]{
+                ApplicationConfiguration.class,
+                InjectedServiceBeans.class,
+                SpringDataJPAConfig.class,
+                ThymeLeafConfig.class
+        };
     }
 
     @Override
