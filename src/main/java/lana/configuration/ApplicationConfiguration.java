@@ -35,6 +35,7 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
     public MessageSource messageSource() {
         ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
         messageSource.setBasenames("messages");
+        messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
 
