@@ -10,7 +10,6 @@ public class ApplicationInit extends AbstractAnnotationConfigDispatcherServletIn
                 InjectedServiceBeans.class,
                 SpringDataJPAConfig.class,
                 WebSecurityConfig.class
-
         };
     }
 
