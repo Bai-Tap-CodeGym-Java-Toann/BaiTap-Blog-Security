@@ -23,7 +23,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     }
 
-    //optional-customSuccessHandle
+    //optional - customSuccessHandle -> authorisation
     @Autowired
     CustomSuccessHandler customSuccessHandler;
 
