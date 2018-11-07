@@ -1,5 +1,5 @@
-# LanaBaseGradle
-### Lana's Project Gradle - LTS
+# Lana's Gradle Template
+### Lana's Default Template for SpringMvc
 
 How To Use:
 1. Clone 
@@ -15,3 +15,5 @@ Remember To:
   - repository
   - service
   - model  
+
+To remove a config class: remove the class file and .class in ApplicationInit.
