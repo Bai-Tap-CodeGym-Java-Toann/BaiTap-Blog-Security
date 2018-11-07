@@ -21,7 +21,6 @@ Default Configuration:
 * Static Resources: /assets/**
 * Messages Resources: /resources/messages.properties
 * Views: /WEB-INF/views/
-* Default Schema: mySchema (mySQL 5.7)
 
 
 
