@@ -1,4 +1,4 @@
-# Lana's Gradle Template
+## Lana's Gradle Template
 ### Lana's Default Template for SpringMvc
 
 How To Use:
@@ -9,11 +9,20 @@ How To Use:
 5. Build project
 
 Remember To:
-* Re config files in configuration package (SpringDataJPA)
-* Create package: 
-  - controllers*
-  - repository*
-  - service
-  - model  
+1. Re config files in configuration package (SpringDataJPA)
+2. Create package: 
+   - controllers (Servlet Dispatcher config)
+   - repository (Spring JPA config)
+   - model  (Spring JPA config)
+   - service
+
+
+Default Configuration:
+* Static Resources: /assets/**
+* Messages Resources: /resources/messages.properties
+* Views: /WEB-INF/views/
+* Default Schema: mySchema (mySQL 5.7)
+
+
 
 To remove a config class: remove the class file and .class in ApplicationInit.
