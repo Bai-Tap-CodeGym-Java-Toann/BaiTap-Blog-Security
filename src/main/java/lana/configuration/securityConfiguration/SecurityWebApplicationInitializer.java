@@ -1,4 +1,4 @@
-package lana.configuration.securityConfig;
+package lana.configuration.securityConfiguration;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

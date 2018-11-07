@@ -1,4 +1,4 @@
-package lana.configuration.securityConfig;
+package lana.configuration.securityConfiguration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan("lana.configuration.securityConfig")
+@ComponentScan("lana.configuration.securityConfiguration")
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override

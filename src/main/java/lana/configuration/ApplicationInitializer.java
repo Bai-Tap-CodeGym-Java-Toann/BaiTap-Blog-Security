@@ -1,6 +1,6 @@
 package lana.configuration;
 
-import lana.configuration.securityConfig.WebSecurityConfig;
+import lana.configuration.securityConfiguration.WebSecurityConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

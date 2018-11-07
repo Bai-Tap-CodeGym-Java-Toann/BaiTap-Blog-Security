@@ -25,4 +25,6 @@ Default Configuration:
 
 
 
-To remove a config class: remove the class file and .class in ApplicationInit.
+To remove a config class: remove the class file and .class in ApplicationInitializer.
+
+Security configuration must be reconfigured or removed.

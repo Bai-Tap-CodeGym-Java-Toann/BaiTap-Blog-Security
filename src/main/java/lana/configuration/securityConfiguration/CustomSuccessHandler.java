@@ -1,4 +1,4 @@
-package lana.configuration.securityConfig;
+package lana.configuration.securityConfiguration;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.DefaultRedirectStrategy;
