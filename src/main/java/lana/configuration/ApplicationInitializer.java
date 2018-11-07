@@ -1,13 +1,12 @@
-package lana.configuration.Initializer;
+package lana.configuration;
 
-import lana.configuration.*;
+import lana.configuration.securityConfig.WebSecurityConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class ApplicationInit extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[]{
-                InjectedServiceBeans.class,
                 SpringDataJPAConfig.class,
                 WebSecurityConfig.class
         };

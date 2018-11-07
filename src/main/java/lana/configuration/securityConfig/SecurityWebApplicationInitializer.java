@@ -1,8 +1,8 @@
-package lana.configuration.Initializer;
+package lana.configuration.securityConfig;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 
-public class SecurityWebApplicationInit
+public class SecurityWebApplicationInitializer
         extends AbstractSecurityWebApplicationInitializer {
 
 }

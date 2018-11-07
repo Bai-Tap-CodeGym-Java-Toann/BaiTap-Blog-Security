@@ -22,6 +22,8 @@ import java.util.Locale;
 @ComponentScan("lana.controllers")
 public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
 
+    //injectedService
+
 
     //staticResources
     @Override
