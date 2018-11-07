@@ -11,8 +11,8 @@ How To Use:
 Remember To:
 * Re config files in configuration package (SpringDataJPA)
 * Create package: 
-  - controllers
-  - repository
+  - controllers*
+  - repository*
   - service
   - model  
 
