@@ -1,5 +1,7 @@
 package lana.configuration;
 
+import lana.service.BlogService;
+import lana.service.BlogServiceImpl;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -23,7 +25,10 @@ import java.util.Locale;
 public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
 
     //injectedService
-
+    @Bean
+    BlogService blogService() {
+        return new BlogServiceImpl();
+    }
 
     //staticResources
     @Override
